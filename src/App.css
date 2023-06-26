@@ -28,7 +28,7 @@ canvas {
 .title {
   text-align: center;
   line-height: 1;
-  font-size: calc(50px + (90 - 50) * ((100vw - 300px) / (1300)));
+  font-size: calc(50px + (80 - 50) * ((100vw - 300px) / (1300)));
   font-family: "Inter", sans-serif;
   font-weight: 600;
   color: white;

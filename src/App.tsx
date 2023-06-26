@@ -42,7 +42,7 @@ class AnimationScript2 extends ComponentBase {
 
   onUpdate() {
     let delta = Time.time * 0.002;
-    this.material!.uvTransform_1 = new Vector4(0, -delta, -6, 4);
+    this.material!.uvTransform_1 = new Vector4(0, -delta, -6, 5);
   }
 }
 
@@ -70,7 +70,7 @@ function App() {
     const obj = new Object3D();
     const mr = obj.addComponent(MeshRenderer);
 
-    mr.geometry = new SphereGeometry(2, 64, 64);
+    mr.geometry = new SphereGeometry(2.2, 64, 64);
     const material = new UnLitMaterial();
     material.baseColor = new Color(1, 1, 1, 1);
     material.baseMap = texture;
@@ -85,7 +85,7 @@ function App() {
 
     const obj2 = new Object3D();
     const mr2 = obj2.addComponent(MeshRenderer);
-    mr2.geometry = new TorusGeometry(3, 0.5, 32, 32);
+    mr2.geometry = new TorusGeometry(3.5, 0.8, 32, 32);
     const material2 = new UnLitMaterial();
     material2.baseColor = new Color(1, 1, 1, 1);
     material2.baseMap = texture;
@@ -117,7 +117,10 @@ function App() {
         <div className="sub-title">
           made by d3adrabbit
           <span className="line">|</span>
-          <a href="https://github.com/d3adrabbit/kinetic-typography-webgpu" className="link">
+          <a
+            href="https://github.com/d3adrabbit/kinetic-typography-webgpu"
+            className="link"
+          >
             github
           </a>
         </div>
