@@ -117,7 +117,7 @@ function App() {
         <div className="sub-title">
           made by d3adrabbit
           <span className="line">|</span>
-          <a href="#" className="link">
+          <a href="https://github.com/d3adrabbit/kinetic-typography-webgpu" className="link">
             github
           </a>
         </div>
