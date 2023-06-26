@@ -1,4 +1,6 @@
-# Vite + React
+# kinetic-typography-webgpu
+
+![preiview](preview.png "preiview")
 
 This is a [Vite](https://vitejs.dev) project together with React.
 
